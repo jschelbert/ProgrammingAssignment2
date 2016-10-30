@@ -39,8 +39,6 @@ makeCacheMatrix <- function(x = matrix()) {
          getinverse = getinverse)
 }
 
-
-
 ## The function 'cacheSolve' checks if for an object that was created with the 
 ## makeCacheMatrix function the inverse was already computed. If not, then the
 ## function computes the inverse and assigns it to the object. The function makes
